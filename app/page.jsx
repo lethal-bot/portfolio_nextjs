@@ -1,5 +1,6 @@
 import Education from "@/components/custom/Education";
 import Photo from "@/components/custom/Photo";
+import Resume from "@/components/custom/Resume";
 import Socials from "@/components/custom/Socials";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
@@ -46,6 +47,9 @@ export default function Home() {
       </section>
       <section>
         <Education />
+      </section>
+      <section>
+        <Resume />
       </section>
     </>
   );

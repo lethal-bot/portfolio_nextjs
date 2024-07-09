@@ -22,9 +22,9 @@ const education = [
 function Education() {
   return (
     <div className="container mx-auto">
-      <h2 className="h1 text-accent underline underline-offset-8 text-center mb-8">
+      {/* <h2 className="h1 text-accent underline underline-offset-8 text-center mb-8">
         Education
-      </h2>
+      </h2> */}
       <section className="flex flex-col justify-center  py-12 xl-py-0">
         <motion.div
           initial={{ opacity: 0 }}
@@ -40,7 +40,6 @@ function Education() {
                 key={index}
                 className="flex flex-col justify-around items-center md:items-start group gap-6"
               >
-                <div className="border-b border-white/20 w-full"></div>
                 <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
                   {item.year}
                 </div>
